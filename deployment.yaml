@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: sample-k8s-app-container
-        image: swr.la-south-2.myhuaweicloud.com/hwperu/test-jenkins:$BUILD_NUMBER
+        image: swr.la-south-2.myhuaweicloud.com/demo-carlos/test-jenkins:$BUILD_NUMBER
         ports:
         - containerPort: 80
       imagePullSecrets:
