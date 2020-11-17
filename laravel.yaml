@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
         - name: container-0
-          image: 'swr.ap-southeast-1.myhuaweicloud.com/dev-hk/webdocker:$BUILD_NUMBER'
+          image: 'swr.ap-southeast-1.myhuaweicloud.com/dev-hk/webdocker:$(Build.BuildNumber)'
           env:
             - name: PAAS_APP_NAME
               value: webdocker
