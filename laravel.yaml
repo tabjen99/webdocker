@@ -22,7 +22,7 @@ spec:
   template:
     metadata:
       labels:
-        app: webdocker1
+        app: webdocker
         version: v1
     spec:
       containers:
