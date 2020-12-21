@@ -14,11 +14,6 @@ metadata:
     deployment.kubernetes.io/revision: '1'
     description: webdocker222
 spec:
-  replicas: 1
-  selector:
-    matchLabels:
-      app: webdocker2
-      version: v1
   template:
     metadata:
       labels:
