@@ -1,10 +1,9 @@
 kind: Deployment
 apiVersion: apps/v1
 metadata:
-  name: webdocker
+  name: webdocker1
   namespace: default
   selfLink: /apis/apps/v1/namespaces/default/deployments/webdocker
-  uid: b4bb801b-a6fa-4055-91c1-a8cc5849feac
   #resourceVersion: '132070'
   generation: 1
   creationTimestamp: '2020-11-17T13:51:42Z'
@@ -13,17 +12,17 @@ metadata:
     version: v1
   annotations:
     deployment.kubernetes.io/revision: '1'
-    description: webdocker
+    description: webdocker222
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: webdocker
+      app: webdocker2
       version: v1
   template:
     metadata:
       labels:
-        app: webdocker
+        app: webdocker3
         version: v1
     spec:
       containers:
