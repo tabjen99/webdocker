@@ -12,7 +12,7 @@ metadata:
     version: v1
   annotations:
     deployment.kubernetes.io/revision: '1'
-    description: webdocker222
+    description: webdocker2
 spec:
   
   selector:
