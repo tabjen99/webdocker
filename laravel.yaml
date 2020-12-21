@@ -1,7 +1,7 @@
 kind: Deployment
 apiVersion: apps/v1
 metadata:
-  name: webdocker1
+  name: webdocker
   namespace: default
   selfLink: /apis/apps/v1/namespaces/default/deployments/webdocker
   #resourceVersion: '132070'
